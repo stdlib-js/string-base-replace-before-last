@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import replaceBeforeLast from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-replace-before-last@esm/index.mjs';
+import replaceBeforeLast from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-replace-before-last@v0.1.0-esm/index.mjs';
 ```
 
 #### replaceBeforeLast( str, search, replacement, fromIndex )
@@ -114,7 +114,7 @@ var out = replaceBeforeLast( 'beep boop beep', ' ', 'loop', -1 );
 <body>
 <script type="module">
 
-import replaceBeforeLast from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-replace-before-last@esm/index.mjs';
+import replaceBeforeLast from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-replace-before-last@v0.1.0-esm/index.mjs';
 
 var str = 'beep boop';
 var out = replaceBeforeLast( str, 'p', 'see', str.length );

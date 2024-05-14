@@ -162,6 +162,14 @@ out = replaceBeforeLast( str, 'xyz', 'foo', str.length );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/string-base/replace-after-last`][@stdlib/string/base/replace-after-last]</span><span class="delimiter">: </span><span class="description">replace the substring after the last occurrence of a specified search string.</span>
+-   <span class="package-name">[`@stdlib/string-base/replace-after`][@stdlib/string/base/replace-after]</span><span class="delimiter">: </span><span class="description">replace the substring after the first occurrence of a specified search string.</span>
+-   <span class="package-name">[`@stdlib/string-base/replace-before`][@stdlib/string/base/replace-before]</span><span class="delimiter">: </span><span class="description">replace the substring before the first occurrence of a specified search string.</span>
+
 </section>
 
 <!-- /.related -->
@@ -237,6 +245,16 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/string-base-replace-before-last/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-base-replace-before-last/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/string/base/replace-after-last]: https://github.com/stdlib-js/string-base-replace-after-last
+
+[@stdlib/string/base/replace-after]: https://github.com/stdlib-js/string-base-replace-after
+
+[@stdlib/string/base/replace-before]: https://github.com/stdlib-js/string-base-replace-before
+
+<!-- </related-links> -->
 
 </section>
 

@@ -43,11 +43,10 @@
 
 ### BREAKING CHANGES
 
--   [`b6cb1d3`](https://github.com/stdlib-js/stdlib/commit/b6cb1d392dab74242900a91b30c256d5b608dea6): support negative `fromIndex` arguments
--   [`b6cb1d3`](https://github.com/stdlib-js/stdlib/commit/b6cb1d392dab74242900a91b30c256d5b608dea6): resolve negative indices relative to last index 
+-   [`b6cb1d3`](https://github.com/stdlib-js/stdlib/commit/b6cb1d392dab74242900a91b30c256d5b608dea6): resolve negative indices relative to last index
 
     -   In order to preserve prior behavior, users should insert a manual
-    check before calling this API.
+        check before calling this API.
 
 </section>
 
@@ -86,12 +85,11 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Golden Kumar
 -   Philipp Burckhardt
--   stdlib-bot
 
 </section>
 

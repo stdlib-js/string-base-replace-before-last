@@ -45,32 +45,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/string-base-replace-before-last
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var replaceBeforeLast = require( '@stdlib/string-base-replace-before-last' );
+import replaceBeforeLast from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-replace-before-last@esm/index.mjs';
 ```
 
 #### replaceBeforeLast( str, search, replacement, fromIndex )
@@ -126,8 +108,13 @@ var out = replaceBeforeLast( 'beep boop beep', ' ', 'loop', -1 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var replaceBeforeLast = require( '@stdlib/string-base-replace-before-last' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import replaceBeforeLast from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-replace-before-last@esm/index.mjs';
 
 var str = 'beep boop';
 var out = replaceBeforeLast( str, 'p', 'see', str.length );
@@ -144,6 +131,10 @@ out = replaceBeforeLast( str, '', 'foo', str.length );
 str = '';
 out = replaceBeforeLast( str, 'xyz', 'foo', str.length );
 // returns ''
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -183,7 +174,7 @@ out = replaceBeforeLast( str, 'xyz', 'foo', str.length );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -248,11 +239,11 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/string/base/replace-after-last]: https://github.com/stdlib-js/string-base-replace-after-last
+[@stdlib/string/base/replace-after-last]: https://github.com/stdlib-js/string-base-replace-after-last/tree/esm
 
-[@stdlib/string/base/replace-after]: https://github.com/stdlib-js/string-base-replace-after
+[@stdlib/string/base/replace-after]: https://github.com/stdlib-js/string-base-replace-after/tree/esm
 
-[@stdlib/string/base/replace-before]: https://github.com/stdlib-js/string-base-replace-before
+[@stdlib/string/base/replace-before]: https://github.com/stdlib-js/string-base-replace-before/tree/esm
 
 <!-- </related-links> -->
 

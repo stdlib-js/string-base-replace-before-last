@@ -1,5 +1,5 @@
-"use strict";var s=function(i,e){return function(){try{return e||i((e={exports:{}}).exports,e),e.exports}catch(t){throw (e=0, t)}};};var a=s(function(l,n){
-function f(i,e,t,u){var r;return u<0&&(u+=i.length,u<0)||(r=i.lastIndexOf(e,u),i===""||e===""||t===""||r<0)?i:t+i.substring(r)}n.exports=f
-});var c=a();module.exports=c;
+"use strict";var s=function(e,i){return function(){try{return i||e((i={exports:{}}).exports,i),i.exports}catch(r){throw (i=0, r)}};};var a=s(function(p,n){
+function c(e,i,r,t){var u;return t<0&&(t+=e.length,t<0)||(u=e.lastIndexOf(i,t),e===""||i===""||u<0)?e:r+e.substring(u)}n.exports=c
+});var f=a();module.exports=f;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
